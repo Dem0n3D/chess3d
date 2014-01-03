@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="Change" >
+        <Property Name="TitlebarFont" Value="Arial" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.33,0},{0.203333,0},{0.675001,0},{0.716667,0}}" />
+        <AutoWindow NameSuffix="__auto_titlebar__" >
+            <Property Name="Font" Value="Arial" />
+        </AutoWindow>
+        <AutoWindow NameSuffix="__auto_closebutton__" />
+        <Window Type="TaharezLook/Button" Name="Queen" >
+            <Property Name="Text" Value="Queen" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.108452,0},{0.135854,0},{0.88119,0},{0.305322,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="Horse" >
+            <Property Name="Font" Value="Arial" />
+            <Property Name="Text" Value="Horse" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.114974,0},{0.351438,0},{0.887712,0},{0.520906,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="Rook" >
+            <Property Name="Font" Value="Arial" />
+            <Property Name="Text" Value="Rook" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.114249,0},{0.563777,0},{0.886988,0},{0.733245,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="Bishop" >
+            <Property Name="Font" Value="Arial" />
+            <Property Name="Text" Value="Bishop" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.120771,0},{0.779361,0},{0.893509,0},{0.948828,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

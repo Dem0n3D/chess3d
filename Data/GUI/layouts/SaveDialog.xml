@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="SaveDialog" >
+        <Property Name="TitlebarFont" Value="Arial" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.3,0},{0.713751,0},{0.515,0}}" />
+        <AutoWindow NameSuffix="__auto_titlebar__" >
+            <Property Name="Font" Value="Arial" />
+        </AutoWindow>
+        <AutoWindow NameSuffix="__auto_closebutton__" />
+        <Window Type="TaharezLook/Editbox" Name="Name" >
+            <Property Name="MaxTextLength" Value="1073741823" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0830825,0},{0.329457,0},{0.931268,0},{0.571705,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="Save" >
+            <Property Name="Text" Value="Save" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.091239,0},{0.68062,0},{0.401662,0},{0.93062,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="Back" >
+            <Property Name="Font" Value="Arial" />
+            <Property Name="Text" Value="Back" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.618579,0},{0.684108,0},{0.929002,0},{0.934108,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

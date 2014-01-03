@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root" >
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="TaharezLook/FrameWindow" Name="Main" >
+            <Property Name="TitlebarFont" Value="Arial" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00124986,0},{0.0049999,0},{0.207499,0},{0.186667,0}}" />
+            <Window Type="TaharezLook/StaticText" Name="Text1" >
+                <Property Name="Font" Value="Arial" />
+                <Property Name="Text" >X:
+Y:
+Name:</Property>
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0945667,0},{0.262438,0},{0.893546,0},{0.915223,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="ClientServer" >
+        <Property Name="TitlebarFont" Value="Arial" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.27375,0},{0.268333,0},{0.7475,0},{0.695,0}}" />
+        <AutoWindow NameSuffix="__auto_titlebar__" >
+            <Property Name="Font" Value="Arial" />
+        </AutoWindow>
+        <AutoWindow NameSuffix="__auto_closebutton__" />
+        <Window Type="TaharezLook/Button" Name="Server" >
+            <Property Name="Text" Value="Create server" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.230871,0},{0.189498,0},{0.742085,0},{0.369185,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Editbox" Name="Adress" >
+            <Property Name="MaxTextLength" Value="1073741823" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.144591,0},{0.461719,0},{0.880079,0},{0.590625,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="Connect" >
+            <Property Name="Font" Value="Arial" />
+            <Property Name="Text" Value="Connect" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.243932,0},{0.692623,0},{0.755146,0},{0.872311,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

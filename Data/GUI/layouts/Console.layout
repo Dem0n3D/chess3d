@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="WindowsLook/FrameWindow" Name="Console" >
+        <Property Name="Text" Value="Console" />
+        <Property Name="Tooltip" Value="Console" />
+        <Property Name="TitlebarFont" Value="Arial" />
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.365,0},{0.00833315,0},{0.995,0},{0.465,0}}" />
+        <Window Type="Vanilla/Editbox" Name="Command" >
+            <Property Name="MaxTextLength" Value="1073741823" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.011508,0},{0.875183,0},{0.985714,0},{0.975548,0}}" />
+        </Window>
+        <Window Type="WindowsLook/MultiLineEditbox" Name="List" >
+            <Property Name="Text" >необходимый текст
+</Property>
+            <Property Name="MaxTextLength" Value="1073741823" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0095238,0},{0.0868613,0},{0.98373,0},{0.866056,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

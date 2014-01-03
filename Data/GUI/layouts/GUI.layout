@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root" >
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="TaharezLook/FrameWindow" Name="Menu1" >
+            <Property Name="Text" Value="Главное меню" />
+            <Property Name="TitlebarFont" Value="Arial" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.315,0},{0.156667,0},{0.682501,0},{0.708333,0}}" />
+            <Window Type="TaharezLook/Button" Name="but1" >
+                <Property Name="Text" Value="Новая партия" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.115647,0},{0.121425,0},{0.889455,0},{0.275853,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="but2" >
+                <Property Name="Font" Value="Arial" />
+                <Property Name="Text" Value="Загрузить партию" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.118029,0},{0.326003,0},{0.891837,0},{0.480431,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="but3" >
+                <Property Name="Font" Value="Arial" />
+                <Property Name="Text" Value="По сети" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.123811,0},{0.542717,0},{0.897619,0},{0.697144,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="but4" >
+                <Property Name="Font" Value="Arial" />
+                <Property Name="Text" Value="Выход" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.119389,0},{0.769097,0},{0.893197,0},{0.923525,0}}" />
+            </Window>
+        </Window>
+        <Window Type="TaharezLook/FrameWindow" Name="Menu2" >
+            <Property Name="Text" Value="Игровое меню" />
+            <Property Name="TitlebarFont" Value="Arial" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.315,0},{0.156667,0},{0.682501,0},{0.708333,0}}" />
+            <Window Type="TaharezLook/Button" Name="but5" >
+                <Property Name="Text" Value="Новая партия" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.115647,0},{0.121425,0},{0.889455,0},{0.275853,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="but6" >
+                <Property Name="Font" Value="Arial" />
+                <Property Name="Text" Value="Загрузить партию" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.119049,0},{0.326863,0},{0.892857,0},{0.481291,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="but7" >
+                <Property Name="Font" Value="Arial" />
+                <Property Name="Text" Value="Сохранить партию" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.123811,0},{0.542717,0},{0.897619,0},{0.697144,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="but8" >
+                <Property Name="Font" Value="Arial" />
+                <Property Name="Text" Value="Главное меню" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.118369,0},{0.770758,0},{0.892177,0},{0.925186,0}}" />
+            </Window>
+        </Window>
+        <Window Type="TaharezLook/FrameWindow" Name="SaveDialog" >
+            <Property Name="Text" Value="Сохранить партию" />
+            <Property Name="TitlebarFont" Value="Arial" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.29125,0},{0.28,0},{0.705001,0},{0.495,0}}" />
+            <Window Type="TaharezLook/Editbox" Name="Edit1" >
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.083082,0},{0.329457,0},{0.931268,0},{0.571705,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="but9" >
+                <Property Name="Text" Value="Сохранить" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.091239,0},{0.68062,0},{0.401662,0},{0.93062,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="but10" >
+                <Property Name="Font" Value="Arial" />
+                <Property Name="Text" Value="Назад" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.618579,0},{0.684108,0},{0.929002,0},{0.934108,0}}" />
+            </Window>
+        </Window>
+        <Window Type="WindowsLook/FrameWindow" Name="Console" >
+            <Property Name="Text" Value="Console" />
+            <Property Name="Tooltip" Value="Console" />
+            <Property Name="TitlebarFont" Value="Arial" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.365,0},{0.00833315,0},{0.995,0},{0.465,0}}" />
+            <Window Type="Vanilla/Editbox" Name="Command" >
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.011508,0},{0.875183,0},{0.985714,0},{0.975548,0}}" />
+            </Window>
+            <Window Type="WindowsLook/MultiLineEditbox" Name="List" >
+                <Property Name="Text" >Необходимый текст
+</Property>
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0095238,0},{0.0868613,0},{0.98373,0},{0.866056,0}}" />
+            </Window>
+        </Window>
+        <Window Type="TaharezLook/FrameWindow" Name="Change" >
+            <Property Name="Text" Value="Сменить фигуру" />
+            <Property Name="TitlebarFont" Value="Arial" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.325,0},{0.156666,0},{0.670001,0},{0.67,0}}" />
+            <Window Type="TaharezLook/Button" Name="Queen" >
+                <Property Name="Text" Value="Queen" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.108452,0},{0.135854,0},{0.88119,0},{0.305322,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Horse" >
+                <Property Name="Font" Value="Arial" />
+                <Property Name="Text" Value="Horse" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.114974,0},{0.351438,0},{0.887712,0},{0.520906,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Rook" >
+                <Property Name="Font" Value="Arial" />
+                <Property Name="Text" Value="Rook" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.114249,0},{0.563777,0},{0.886988,0},{0.733245,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Bishop" >
+                <Property Name="Font" Value="Arial" />
+                <Property Name="Text" Value="Bishop" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.120771,0},{0.779361,0},{0.893509,0},{0.948828,0}}" />
+            </Window>
+        </Window>
+        <Window Type="WindowsLook/StaticText" Name="Message" >
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.01375,0},{0.0233334,0},{0.53125,0},{0.0916668,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+        <Window Type="TaharezLook/FrameWindow" Name="ProtocolWindow" >
+            <Property Name="Text" Value="Протокол партии" />
+            <Property Name="TitlebarFont" Value="Arial" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0200001,0},{0.465,0},{0.3225,0},{0.98,0}}" />
+            <Window Type="TaharezLook/MultiColumnList" Name="Protocol" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0661148,0},{0.121359,0},{0.931818,0},{0.957119,0}}" />
+            </Window>
+        </Window>
+        <Window Type="TaharezLook/FrameWindow" Name="LoadDialog" >
+            <Property Name="Text" Value="Загрузить партию" />
+            <Property Name="TitlebarFont" Value="Arial" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.28875,0},{0.158333,0},{0.71375,0},{0.696667,0}}" />
+            <Window Type="TaharezLook/Button" Name="but12" >
+                <Property Name="Font" Value="Arial" />
+                <Property Name="Text" Value="Назад" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.589167,0},{0.820795,0},{0.929002,0},{0.934572,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="but11" >
+                <Property Name="Font" Value="Arial" />
+                <Property Name="Text" Value="Загрузить" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.070651,0},{0.819939,0},{0.407545,0},{0.933716,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Listbox" Name="LoadList" >
+                <Property Name="Text" Value="1" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0676475,0},{0.101858,0},{0.932352,0},{0.794583,0}}" />
+            </Window>
+        </Window>
+        <Window Type="TaharezLook/FrameWindow" Name="LANMenu" >
+            <Property Name="TitlebarFont" Value="Arial" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.33625,0},{0.228333,0},{0.666249,0},{0.601666,0}}" />
+            <Window Type="TaharezLook/TabControl" Name="Tab" >
+                <Property Name="TabHeight" Value="{0,22.89}" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="TabPanePosition" Value="Top" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0303035,0},{0.125,0},{0.969697,0},{0.78125,0}}" />
+                <Window Type="DefaultWindow" Name="Tab/Tab1" >
+                    <Property Name="Text" Value="Сервер" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="TaharezLook/Button" Name="but13" >
+                        <Property Name="Text" Value="Начать игру" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.041936,0},{0.163945,0},{0.953226,0},{0.441156,0}}" />
+                    </Window>
+                    <Window Type="TaharezLook/Button" Name="but14" >
+                        <Property Name="Font" Value="Arial" />
+                        <Property Name="Text" Value="Загрузить игру" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.035484,0},{0.560884,0},{0.946774,0},{0.838096,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="Tab/Tab2" >
+                    <Property Name="Text" Value="Клиент" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="TaharezLook/Editbox" Name="Edit2" >
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0379037,0},{0.163946,0},{0.965322,0},{0.413946,0}}" />
+                    </Window>
+                    <Window Type="TaharezLook/Button" Name="but15" >
+                        <Property Name="Font" Value="Arial" />
+                        <Property Name="Text" Value="Присоединиться" />
+                        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0370965,0},{0.563265,0},{0.948386,0},{0.840477,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="TaharezLook/Button" Name="but16" >
+                <Property Name="Text" Value="Назад" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.521969,0},{0.802679,0},{0.957575,0},{0.976786,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

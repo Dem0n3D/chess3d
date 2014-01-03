@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="ProtocolWindow" >
+        <Property Name="Text" Value="Протокол партии" />
+        <Property Name="TitlebarFont" Value="Arial" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0200001,0},{0.465,0},{0.3225,0},{0.98,0}}" />
+        <AutoWindow NameSuffix="__auto_titlebar__" >
+            <Property Name="Font" Value="Arial" />
+            <Property Name="Text" Value="Протокол партии" />
+        </AutoWindow>
+        <AutoWindow NameSuffix="__auto_closebutton__" />
+        <Window Type="TaharezLook/MultiColumnList" Name="Protocol" >
+            <Property Name="Text" Value="1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0661148,0},{0.121359,0},{0.931818,0},{0.957119,0}}" />
+            <AutoWindow NameSuffix="__auto_listheader__" />
+            <AutoWindow NameSuffix="__auto_hscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+            <AutoWindow NameSuffix="__auto_vscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+        </Window>
+    </Window>
+</GUILayout>
